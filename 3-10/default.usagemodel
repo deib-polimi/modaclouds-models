@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:usagemodel="http://sdq.ipd.uka.de/PalladioComponentModel/UsageModel/5.0">
+  <usageScenario_UsageModel id="_51SU8AwpEeSMaZkt-OKzxA" entityName="defaultUsageScenario">
+    <scenarioBehaviour_UsageScenario id="_51S8AAwpEeSMaZkt-OKzxA" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_51TjEAwpEeSMaZkt-OKzxA" successor="_CspXMAwqEeSMaZkt-OKzxA"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_51UKIAwpEeSMaZkt-OKzxA" predecessor="_GG3bUAwqEeSMaZkt-OKzxA"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_CspXMAwqEeSMaZkt-OKzxA" successor="_FPZn0AwqEeSMaZkt-OKzxA" predecessor="_51TjEAwpEeSMaZkt-OKzxA">
+        <providedRole_EntryLevelSystemCall href="default.system#_h7CXwAwoEeSMaZkt-OKzxA"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#_6g2-UAwlEeSMaZkt-OKzxA"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_FPZn0AwqEeSMaZkt-OKzxA" successor="_GG3bUAwqEeSMaZkt-OKzxA" predecessor="_CspXMAwqEeSMaZkt-OKzxA">
+        <providedRole_EntryLevelSystemCall href="default.system#_h7CXwAwoEeSMaZkt-OKzxA"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#_8eoSkAwlEeSMaZkt-OKzxA"/>
+      </actions_ScenarioBehaviour>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_GG3bUAwqEeSMaZkt-OKzxA" successor="_51UKIAwpEeSMaZkt-OKzxA" predecessor="_FPZn0AwqEeSMaZkt-OKzxA">
+        <providedRole_EntryLevelSystemCall href="default.system#_h7CXwAwoEeSMaZkt-OKzxA"/>
+        <operationSignature__EntryLevelSystemCall href="default.repository#_8yLgsAwlEeSMaZkt-OKzxA"/>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1000">
+      <thinkTime_ClosedWorkload specification="10.0"/>
+    </workload_UsageScenario>
+  </usageScenario_UsageModel>
+</usagemodel:UsageModel>

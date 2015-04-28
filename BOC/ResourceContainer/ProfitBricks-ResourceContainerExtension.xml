@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<resourceModelExtension xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension resource_model_extension.xsd">
+<resourceContainer id="3db74756-3aa4-43fc-ab74-1f3d1dd5bc88__resourceContainer" provider="ProfitBricks">
+    <cloudResource serviceType="Compute">
+    </cloudResource>
+</resourceContainer>
+</resourceModelExtension>
