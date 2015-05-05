@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lqnExtensions>
+<environment numStages="2" envID="e1"> 
+ <stage name="LC" meanTime="100">
+  <transition destName="HC" prob="1" >
+   <resetRule ruleName="noReset"/>
+  </transition>
+ </stage>
+ <stage name="HC" meanTime="900">
+  <transition destName="LC" prob="1">
+   <resetRule ruleName="noReset"/>
+  </transition>
+ </stage>
+</environment>
+
+<envParameter id="Tier1_CPU_Processor" paramName="speed-factor" envID="e1">
+	<envValue stage="LC" factor="1"/>
+	<envValue stage="HC" factor="0.7"/>
+</envParameter>	
+<envParameter id="Tier2_CPU_Processor" paramName="speed-factor" envID="e1">
+	<envValue stage="LC" factor="1"/>
+	<envValue stage="HC" factor="0.7"/>
+</envParameter>	
+<envParameter id="Tier3_CPU_Processor" paramName="speed-factor" envID="e1">
+	<envValue stage="LC" factor="1"/>
+	<envValue stage="HC" factor="0.7"/>
+</envParameter>	
+
+
+</lqnExtensions>

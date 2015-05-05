@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" id="_lcDyAAwpEeSMaZkt-OKzxA" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="default.resourceenvironment#/"/>
+  <system_Allocation href="default.system#_Ph0kwAwoEeSMaZkt-OKzxA"/>
+  <allocationContexts_Allocation id="_oEFkMAwpEeSMaZkt-OKzxA" entityName="Allocation_Assembly_frontEnd &lt;frontEnd> &lt;frontEnd>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W057YAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_3SRbEAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_zZw7YAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component1 &lt;component1> &lt;component1>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W057YAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_4CUX8AwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_1YcOkAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component9 &lt;component9> &lt;component9>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W057YAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#__ccAIAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_3uL98AzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component4 &lt;component4> &lt;component4>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W057YAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_6wz-gAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_4X5CQAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component8 &lt;component8> &lt;component8>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W6tBYAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_-6ES4AwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_555AgAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component3 &lt;component3> &lt;component3>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W6tBYAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_6Sqp8AwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_6h_iUAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component6 &lt;component6> &lt;component6>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_XEVegAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_8BY1kAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_7JGloAzLEeSg6-W2sHENUg" entityName="Allocation_Assembly_component7 &lt;component7> &lt;component7>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_W6tBYAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_9JhiUAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_fYqIEAzMEeSg6-W2sHENUg" entityName="Allocation_Assembly_component2 &lt;component2> &lt;component2>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_XEVegAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_4cyGYAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_f-Z5cAzMEeSg6-W2sHENUg" entityName="Allocation_Assembly_component5 &lt;component5> &lt;component5>">
+    <resourceContainer_AllocationContext href="default.resourceenvironment#_XEVegAwpEeSMaZkt-OKzxA"/>
+    <assemblyContext_AllocationContext href="default.system#_7bG4sAwoEeSMaZkt-OKzxA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
