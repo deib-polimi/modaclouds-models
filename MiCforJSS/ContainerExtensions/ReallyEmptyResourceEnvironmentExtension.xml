@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceModelExtension
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd"
+	xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<resourceContainer id="_JWHSgMdLEeSzTs-iRu8Llw" name="FrontEnd">
+		<cloudElement serviceCategory="IaaS" serviceType="Compute">
+		</cloudElement>
+	</resourceContainer>
+</resourceModelExtension>
