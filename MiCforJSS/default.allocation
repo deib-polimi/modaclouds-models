@@ -6,10 +6,6 @@
     <resourceContainer_AllocationContext href="default.resourceenvironment#_JWHSgMdLEeSzTs-iRu8Llw"/>
     <assemblyContext_AllocationContext href="default.system#_4RXYEMdKEeSzTs-iRu8Llw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_4sjvQNLPEeSGdtuBIMIzvQ" entityName="Similarity">
-    <resourceContainer_AllocationContext href="default.resourceenvironment#_JWHSgMdLEeSzTs-iRu8Llw"/>
-    <assemblyContext_AllocationContext href="default.system#_4uRWgMdKEeSzTs-iRu8Llw"/>
-  </allocationContexts_Allocation>
   <allocationContexts_Allocation id="__6umINLPEeSGdtuBIMIzvQ" entityName="WebServer">
     <resourceContainer_AllocationContext href="default.resourceenvironment#_JWHSgMdLEeSzTs-iRu8Llw"/>
     <assemblyContext_AllocationContext href="default.system#_133xIMdKEeSzTs-iRu8Llw"/>

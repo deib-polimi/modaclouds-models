@@ -10,21 +10,7 @@
 		<metric>ResponseTime</metric>
 		<metricAggregation aggregateFunction="Average" />
 		<range>
-			<hasMaxValue>4000</hasMaxValue>
-		</range>
-	</constraint>
-
-	<constraint
-		id="r2" name="Login percentile RT">
-		<targetResourceIDRef>_sPjOMNhwEeSGjb1hTo3-zQ
-		</targetResourceIDRef>
-		<targetClass>Method</targetClass>
-		<metric>ResponseTime</metric>
-		<metricAggregation aggregateFunction="Percentile">
-			<parameter name="thPercentile">95</parameter>
-		</metricAggregation>
-		<range>
-			<hasMaxValue>10000</hasMaxValue>
+			<hasMaxValue>40</hasMaxValue>
 		</range>
 	</constraint>
 
@@ -36,7 +22,19 @@
 		<metric>ResponseTime</metric>
 		<metricAggregation aggregateFunction="Average" />
 		<range>
-			<hasMaxValue>10000</hasMaxValue>
+			<hasMaxValue>14</hasMaxValue>
+		</range>
+	</constraint>
+	
+		<constraint
+		id="r3" name="Save Answer Average">
+		<targetResourceIDRef>_KXN1EMdJEeSzTs-iRu8Llw
+		</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>14</hasMaxValue>
 		</range>
 	</constraint>
 
@@ -78,7 +76,7 @@
 		<metricAggregation aggregateFunction="Average" />
 		<range>
 			<outSet>
-				<value>c3.large</value>
+				<value>m3.large</value>
 			</outSet>
 		</range>
 	</constraint>

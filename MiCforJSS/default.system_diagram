@@ -41,25 +41,6 @@
         <element href="default.system#_4RXYEMdKEeSzTs-iRu8Llw"/>
         <layoutConstraint xsi:type="notation:Bounds" x="491" y="123"/>
       </children>
-      <children xsi:type="notation:Shape" type="3006" fontName="Segoe UI">
-        <children xsi:type="notation:DecorationNode" type="5009"/>
-        <children xsi:type="notation:Shape" type="3007" fontName="Segoe UI">
-          <children xsi:type="notation:DecorationNode" type="5007">
-            <layoutConstraint xsi:type="notation:Location" x="-22" y="75"/>
-          </children>
-          <element href="default.repository#_TMWZ0Mc1EeSzTs-iRu8Llw"/>
-          <layoutConstraint xsi:type="notation:Bounds"/>
-        </children>
-        <children xsi:type="notation:Shape" type="3008" fontName="Segoe UI">
-          <children xsi:type="notation:DecorationNode" type="5008">
-            <layoutConstraint xsi:type="notation:Location" x="157" y="51"/>
-          </children>
-          <element href="default.repository#_T9GUwMdKEeSzTs-iRu8Llw"/>
-          <layoutConstraint xsi:type="notation:Bounds"/>
-        </children>
-        <element href="default.system#_4uRWgMdKEeSzTs-iRu8Llw"/>
-        <layoutConstraint xsi:type="notation:Bounds" x="383" y="411"/>
-      </children>
     </children>
     <children xsi:type="notation:Shape" type="3011" fontName="Segoe UI">
       <children xsi:type="notation:DecorationNode" type="5013">
@@ -78,17 +59,6 @@
     <element href="default.system#__09sYMdKEeSzTs-iRu8Llw"/>
     <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -438, 47]$[438, -47, -7, 0]"/>
     <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.23333333333333334,0.5333333333333333)"/>
-  </edges>
-  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.0/@children.2" target="//@children.0/@children.1/@children.2/@children.1">
-    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
-    <element href="default.system#_Bf3vAMdLEeSzTs-iRu8Llw"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, -326, -214]$[331, 217, -2, 3]"/>
-  </edges>
-  <edges xsi:type="notation:Connector" type="4004" source="//@children.0/@children.1/@children.2/@children.2" target="//@children.0/@children.1/@children.1/@children.1">
-    <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>
-    <element href="default.system#_CHPRAMdLEeSzTs-iRu8Llw"/>
-    <bendpoints xsi:type="notation:RelativeBendpoints" points="[7, 0, 64, 302]$[-63, -304, -6, -2]"/>
-    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.2,0.43333333333333335)"/>
   </edges>
   <edges xsi:type="notation:Connector" type="4006" source="//@children.0/@children.2" target="//@children.0/@children.1/@children.0/@children.1">
     <styles xsi:type="notation:FontStyle" fontName="Segoe UI"/>

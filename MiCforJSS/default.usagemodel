@@ -17,7 +17,7 @@
         <operationSignature__EntryLevelSystemCall href="default.repository#_JBxsIMdJEeSzTs-iRu8Llw"/>
       </actions_ScenarioBehaviour>
     </scenarioBehaviour_UsageScenario>
-    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1100">
+    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="7000">
       <thinkTime_ClosedWorkload specification="10"/>
     </workload_UsageScenario>
   </usageScenario_UsageModel>
