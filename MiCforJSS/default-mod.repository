@@ -47,11 +47,6 @@
       <steps_Behaviour xsi:type="seff:StartAction" id="_snOuYNhwEeSGjb1hTo3-zQ" entityName="start" successor_AbstractAction="_v5qvgNhwEeSGjb1hTo3-zQ"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_snPVcNhwEeSGjb1hTo3-zQ" entityName="stop" predecessor_AbstractAction="_dO-ycCYWEeWW2Lhbcv9Mtg"/>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_v5qvgNhwEeSGjb1hTo3-zQ" predecessor_AbstractAction="_snOuYNhwEeSGjb1hTo3-zQ" successor_AbstractAction="_dO-ycCYWEeWW2Lhbcv9Mtg" calledService_ExternalService="_JyTEwMc2EeSzTs-iRu8Llw" role_ExternalService="_EUuzYMc3EeSzTs-iRu8Llw"/>
-      <steps_Behaviour xsi:type="seff:InternalCallAction">
-        <resourceDemand_Action>
-          <specification_ParametericResourceDemand specification="35.75"/>
-        </resourceDemand_Action>
-      </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:InternalAction" id="_dO-ycCYWEeWW2Lhbcv9Mtg" predecessor_AbstractAction="_v5qvgNhwEeSGjb1hTo3-zQ" successor_AbstractAction="_snPVcNhwEeSGjb1hTo3-zQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
