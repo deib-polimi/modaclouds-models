@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<constraints xmlns="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/qosconstraints/qos_constraints_schema.xsd">
+	<constraint
+        id="c1"
+        name="Tier MaxUtil">
+        <targetResourceIDRef>_JWHSgMdLEeSzTs-iRu8Llw
+        </targetResourceIDRef>
+        <targetClass>Tier</targetClass>
+        <metric>CPUUtilization</metric>
+        <metricAggregation aggregateFunction="Average" />
+        <range>
+            <hasMaxValue>0.8</hasMaxValue>
+        </range>
+    </constraint>
+</constraints>
