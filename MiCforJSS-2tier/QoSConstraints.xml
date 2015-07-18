@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/qosconstraints/qos_constraints_schema.xsd">
 	<constraint
 		id="r1"
-		name="register">
+		name="Register">
 		<targetResourceIDRef>_sPjOMNhwEeSGjb1hTo3-zQ</targetResourceIDRef>
 		<targetClass>Method</targetClass>
 		<metric>ResponseTime</metric>
@@ -15,7 +15,7 @@
 	</constraint>
 
 	<constraint
-		id="r3" name="Answere Question Average">
+		id="r2" name="Answer Question">
 		<targetResourceIDRef>_GUDXEMdIEeSzTs-iRu8Llw
 		</targetResourceIDRef>
 		<targetClass>Method</targetClass>
@@ -25,9 +25,9 @@
 			<hasMaxValue>14</hasMaxValue>
 		</range>
 	</constraint>
-	
-		<constraint
-		id="r3" name="Save Answer Average">
+
+	<constraint
+		id="r3" name="Save Answer">
 		<targetResourceIDRef>_KXN1EMdJEeSzTs-iRu8Llw
 		</targetResourceIDRef>
 		<targetClass>Method</targetClass>
@@ -38,46 +38,4 @@
 		</range>
 	</constraint>
 
-
-	<constraint id="3" name="Front End Minimum Ram">
-		<targetResourceIDRef>_JWHSgMdLEeSzTs-iRu8Llw
-		</targetResourceIDRef>
-		<metric>RAM</metric>
-		<metricAggregation aggregateFunction="Average" />
-		<range>
-			<hasMinValue>2000</hasMinValue>
-		</range>
-	</constraint>
-	<constraint id="4" name="Min Ram">
-		<targetResourceIDRef>_JWHSgMdLEeSzTs-iRu8Llw
-		</targetResourceIDRef>
-		<metric>RAM</metric>
-		<metricAggregation aggregateFunction="Average" />
-		<range>
-			<hasMinValue>2000</hasMinValue>
-		</range>
-	</constraint>
-	<constraint id="5" name="Max Utilization">
-		<targetResourceIDRef>_JWHSgMdLEeSzTs-iRu8Llw
-		</targetResourceIDRef>
-		<metric>CPUUtilization</metric>
-		<metricAggregation aggregateFunction="Average" />
-		<range>
-			<hasMaxValue>0.8</hasMaxValue>
-		</range>
-	</constraint>
-	<constraint
-		id="6"
-		name="MachineType">
-		<targetResourceIDRef>_JWHSgMdLEeSzTs-iRu8Llw
-		</targetResourceIDRef>
-		<targetClass>VM</targetClass>
-		<metric>MachineType</metric>
-		<metricAggregation aggregateFunction="Average" />
-		<range>
-			<outSet>
-				<value>m3.large</value>
-			</outSet>
-		</range>
-	</constraint>
 </constraints>
