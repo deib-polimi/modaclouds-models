@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<constraints xmlns="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/qosconstraints/qos_constraints_schema.xsd">
+	<constraint
+		id="r1"
+		name="Register">
+		<targetResourceIDRef>_sPjOMNhwEeSGjb1hTo3-zQ</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>10</hasMaxValue> <!-- 40 -->
+		</range>
+	</constraint>
+
+	<constraint
+		id="r2" name="Answer Question">
+		<targetResourceIDRef>_GUDXEMdIEeSzTs-iRu8Llw
+		</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>11</hasMaxValue> <!-- 14 -->
+		</range>
+	</constraint>
+
+	<constraint
+		id="r3" name="Save Answer">
+		<targetResourceIDRef>_KXN1EMdJEeSzTs-iRu8Llw
+		</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>11</hasMaxValue> <!-- 14 -->
+		</range>
+	</constraint>
+
+</constraints>
