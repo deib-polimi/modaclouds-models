@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceModelExtension xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd">
+    <resourceContainer id="_JWHSgMdLEeSzTs-iRu8Llw" name="FrontEnd" provider="Microsoft">
+        <cloudElement serviceCategory="IaaS" serviceType="Compute" serviceName="Virtual Machines">
+            <resourceSizeID>A2</resourceSizeID>
+            <location/>
+            <replicas>
+                <replicaElement hour="0" value="1"/>
+                <replicaElement hour="1" value="1"/>
+                <replicaElement hour="2" value="1"/>
+                <replicaElement hour="3" value="1"/>
+                <replicaElement hour="4" value="1"/>
+                <replicaElement hour="5" value="1"/>
+                <replicaElement hour="6" value="2"/>
+                <replicaElement hour="7" value="2"/>
+                <replicaElement hour="8" value="2"/>
+                <replicaElement hour="9" value="7"/>
+                <replicaElement hour="10" value="16"/>
+                <replicaElement hour="11" value="27"/>
+                <replicaElement hour="12" value="11"/>
+                <replicaElement hour="13" value="15"/>
+                <replicaElement hour="14" value="16"/>
+                <replicaElement hour="15" value="22"/>
+                <replicaElement hour="16" value="27"/>
+                <replicaElement hour="17" value="16"/>
+                <replicaElement hour="18" value="3"/>
+                <replicaElement hour="19" value="3"/>
+                <replicaElement hour="20" value="2"/>
+                <replicaElement hour="21" value="1"/>
+                <replicaElement hour="22" value="1"/>
+                <replicaElement hour="23" value="1"/>
+            </replicas>
+        </cloudElement>
+    </resourceContainer>
+    <resourceContainer id="_XcvQsSl8EeWSYcA-m4a5mw" name="DataBase" provider="Microsoft">
+        <cloudElement serviceCategory="IaaS" serviceType="Compute" serviceName="Virtual Machines">
+            <resourceSizeID>A2</resourceSizeID>
+            <location/>
+            <replicas>
+                <replicaElement hour="0" value="1"/>
+                <replicaElement hour="1" value="1"/>
+                <replicaElement hour="2" value="1"/>
+                <replicaElement hour="3" value="1"/>
+                <replicaElement hour="4" value="1"/>
+                <replicaElement hour="5" value="1"/>
+                <replicaElement hour="6" value="1"/>
+                <replicaElement hour="7" value="1"/>
+                <replicaElement hour="8" value="2"/>
+                <replicaElement hour="9" value="6"/>
+                <replicaElement hour="10" value="14"/>
+                <replicaElement hour="11" value="23"/>
+                <replicaElement hour="12" value="10"/>
+                <replicaElement hour="13" value="12"/>
+                <replicaElement hour="14" value="14"/>
+                <replicaElement hour="15" value="19"/>
+                <replicaElement hour="16" value="23"/>
+                <replicaElement hour="17" value="14"/>
+                <replicaElement hour="18" value="3"/>
+                <replicaElement hour="19" value="2"/>
+                <replicaElement hour="20" value="1"/>
+                <replicaElement hour="21" value="1"/>
+                <replicaElement hour="22" value="1"/>
+                <replicaElement hour="23" value="1"/>
+            </replicas>
+        </cloudElement>
+    </resourceContainer>
+</resourceModelExtension>
