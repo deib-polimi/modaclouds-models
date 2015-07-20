@@ -15,14 +15,14 @@
                 <replicaElement hour="7" value="2"/>
                 <replicaElement hour="8" value="2"/>
                 <replicaElement hour="9" value="7"/>
-                <replicaElement hour="10" value="16"/>
+                <replicaElement hour="10" value="17"/>
                 <replicaElement hour="11" value="27"/>
-                <replicaElement hour="12" value="11"/>
-                <replicaElement hour="13" value="15"/>
+                <replicaElement hour="12" value="12"/>
+                <replicaElement hour="13" value="14"/>
                 <replicaElement hour="14" value="16"/>
                 <replicaElement hour="15" value="22"/>
-                <replicaElement hour="16" value="27"/>
-                <replicaElement hour="17" value="16"/>
+                <replicaElement hour="16" value="28"/>
+                <replicaElement hour="17" value="17"/>
                 <replicaElement hour="18" value="3"/>
                 <replicaElement hour="19" value="3"/>
                 <replicaElement hour="20" value="2"/>
@@ -47,8 +47,8 @@
                 <replicaElement hour="7" value="1"/>
                 <replicaElement hour="8" value="2"/>
                 <replicaElement hour="9" value="6"/>
-                <replicaElement hour="10" value="14"/>
-                <replicaElement hour="11" value="23"/>
+                <replicaElement hour="10" value="15"/>
+                <replicaElement hour="11" value="25"/>
                 <replicaElement hour="12" value="10"/>
                 <replicaElement hour="13" value="12"/>
                 <replicaElement hour="14" value="14"/>
