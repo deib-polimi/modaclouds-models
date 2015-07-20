@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<constraints xmlns="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/1.0/qos_constraints_schema https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/qosconstraints/qos_constraints_schema.xsd">
+	<constraint
+		id="r4"
+		name="UpdatePreferences">
+		<targetResourceIDRef>_ceDeoMdJEeSzTs-iRu8Llw</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>6</hasMaxValue> <!-- 40 -->
+		</range>
+	</constraint>
+
+	<constraint
+		id="r5" name="Insert User Profile">
+		<targetResourceIDRef>_McFxgMc2EeSzTs-iRu8Llw
+		</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>1</hasMaxValue> <!-- 14 -->
+		</range>
+	</constraint>
+
+	<constraint
+		id="r6" name="Get Topic">
+		<targetResourceIDRef>_dUmhkMdIEeSzTs-iRu8Llw
+		</targetResourceIDRef>
+		<targetClass>Method</targetClass>
+		<metric>ResponseTime</metric>
+		<metricAggregation aggregateFunction="Average" />
+		<range>
+			<hasMaxValue>4</hasMaxValue> <!-- 14 -->
+		</range>
+	</constraint>
+
+</constraints>
