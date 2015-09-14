@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" id="_O_VjoMcxEeSzTs-iRu8Llw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_ArxvsMc3EeSzTs-iRu8Llw" entityName="Web Server">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_DTcVgMc3EeSzTs-iRu8Llw" entityName="Provided_HTTPAgent Interface_Web Server" providedInterface__OperationProvidedRole="_PnbeYMcxEeSzTs-iRu8Llw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_sPjOMNhwEeSGjb1hTo3-zQ" describedService__SEFF="_mTip8McxEeSzTs-iRu8Llw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_snOuYNhwEeSGjb1hTo3-zQ" entityName="start" successor_AbstractAction="_v5qvgNhwEeSGjb1hTo3-zQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_snPVcNhwEeSGjb1hTo3-zQ" entityName="stop" predecessor_AbstractAction="_dO-ycCYWEeWW2Lhbcv9Mtg"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_v5qvgNhwEeSGjb1hTo3-zQ" predecessor_AbstractAction="_snOuYNhwEeSGjb1hTo3-zQ" successor_AbstractAction="_dO-ycCYWEeWW2Lhbcv9Mtg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_dO-ycCYWEeWW2Lhbcv9Mtg" predecessor_AbstractAction="_v5qvgNhwEeSGjb1hTo3-zQ" successor_AbstractAction="_snPVcNhwEeSGjb1hTo3-zQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="30"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_PnbeYMcxEeSzTs-iRu8Llw" entityName="HTTPAgent Interface">
+    <signatures__OperationInterface id="_mTip8McxEeSzTs-iRu8Llw" entityName="getPage"/>
+  </interfaces__Repository>
+</repository:Repository>
