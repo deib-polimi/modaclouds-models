@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/Allocation/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//allocation http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//resourceenvironment" xmi:id="_4n9HQCV9EeWLS9W1Z1_Jfw" type="allocation" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_4qk9cCV9EeWLS9W1Z1_Jfw" type="2003" fontName="Liberation Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4qlkgCV9EeWLS9W1Z1_Jfw" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4qlkgSV9EeWLS9W1Z1_Jfw" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="__KaOoFrmEeWUxvokr5SWdQ" type="3002" fontName="Liberation Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="__KaOolrmEeWUxvokr5SWdQ" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__KaOo1rmEeWUxvokr5SWdQ" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="default.allocation#__6umINLPEeSGdtuBIMIzvQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__KaOoVrmEeWUxvokr5SWdQ" x="151" y="-1"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="default.resourceenvironment#_JWHSgMdLEeSzTs-iRu8Llw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4qk9cSV9EeWLS9W1Z1_Jfw" x="169" y="117"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_4n9HQSV9EeWLS9W1Z1_Jfw"/>
+  <element xmi:type="allocation:Allocation" href="default.allocation#_kE4bMMdLEeSzTs-iRu8Llw"/>
+</notation:Diagram>

@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd"
 	xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<resourceContainer id="_JWHSgMdLEeSzTs-iRu8Llw" name="FrontEnd">
+	<resourceContainer id="_JWHSgMdLEeSzTs-iRu8Llw" name="FrontEnd" provider="Microsoft">
 		<cloudElement serviceCategory="IaaS" serviceType="Compute">
 		</cloudElement>
 	</resourceContainer>
-    <resourceContainer id="_XcvQsSl8EeWSYcA-m4a5mw" name="DataBase">
+    <resourceContainer id="_XcvQsSl8EeWSYcA-m4a5mw" name="DataBase" provider="Microsoft">
         <cloudElement serviceCategory="IaaS" serviceType="Compute">
         </cloudElement>
     </resourceContainer>

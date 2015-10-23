@@ -7,8 +7,4 @@
 		<cloudElement serviceCategory="IaaS" serviceType="Compute">
 		</cloudElement>
 	</resourceContainer>
-    <resourceContainer id="_XcvQsSl8EeWSYcA-m4a5mw" name="DataBase">
-        <cloudElement serviceCategory="IaaS" serviceType="Compute">
-        </cloudElement>
-    </resourceContainer>
 </resourceModelExtension>

@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<resourceModelExtension
+	xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd">
+	<resourceContainer
+		id="a970adb5-ec38-4465-9a88-1d480c420933__resourceContainer" name="adminServer_NodeType"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS"
+			serviceName="Elastic Compute Cloud (EC2)" serviceType="Compute">
+			<resourceSizeID>Spot Small Instance</resourceSizeID>
+			<replicas>
+				<replicaElement hour="0" value="1" />
+				<replicaElement hour="1" value="1" />
+				<replicaElement hour="2" value="1" />
+				<replicaElement hour="3" value="1" />
+				<replicaElement hour="4" value="1" />
+				<replicaElement hour="5" value="1" />
+				<replicaElement hour="6" value="1" />
+				<replicaElement hour="7" value="1" />
+				<replicaElement hour="8" value="1" />
+				<replicaElement hour="9" value="1" />
+				<replicaElement hour="10" value="1" />
+				<replicaElement hour="11" value="1" />
+				<replicaElement hour="12" value="1" />
+				<replicaElement hour="13" value="1" />
+				<replicaElement hour="14" value="1" />
+				<replicaElement hour="15" value="1" />
+				<replicaElement hour="16" value="1" />
+				<replicaElement hour="17" value="1" />
+				<replicaElement hour="18" value="1" />
+				<replicaElement hour="19" value="1" />
+				<replicaElement hour="20" value="1" />
+				<replicaElement hour="21" value="1" />
+				<replicaElement hour="22" value="1" />
+				<replicaElement hour="23" value="1" />
+			</replicas>
+		</cloudElement>
+	</resourceContainer>
+	<resourceContainer
+		id="7ca614e6-2966-4ee4-bc48-1d12e0eb23fb__resourceContainer" name="svnAgent_NodeType"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS"
+			serviceName="Elastic Compute Cloud (EC2)" serviceType="Compute">
+			<resourceSizeID>Spot Small Instance</resourceSizeID>
+			<replicas>
+				<replicaElement hour="0" value="1" />
+				<replicaElement hour="1" value="1" />
+				<replicaElement hour="2" value="1" />
+				<replicaElement hour="3" value="1" />
+				<replicaElement hour="4" value="1" />
+				<replicaElement hour="5" value="1" />
+				<replicaElement hour="6" value="1" />
+				<replicaElement hour="7" value="1" />
+				<replicaElement hour="8" value="1" />
+				<replicaElement hour="9" value="1" />
+				<replicaElement hour="10" value="1" />
+				<replicaElement hour="11" value="1" />
+				<replicaElement hour="12" value="1" />
+				<replicaElement hour="13" value="1" />
+				<replicaElement hour="14" value="1" />
+				<replicaElement hour="15" value="1" />
+				<replicaElement hour="16" value="1" />
+				<replicaElement hour="17" value="1" />
+				<replicaElement hour="18" value="1" />
+				<replicaElement hour="19" value="1" />
+				<replicaElement hour="20" value="1" />
+				<replicaElement hour="21" value="1" />
+				<replicaElement hour="22" value="1" />
+				<replicaElement hour="23" value="1" />
+			</replicas>
+		</cloudElement>
+	</resourceContainer>
+	<resourceContainer
+		id="e77a8759-dfca-4bdf-8dea-8fc08d9b26fb__resourceContainer" name="httpAgent_NodeType"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS"
+			serviceName="Elastic Compute Cloud (EC2)" serviceType="Compute">
+			<resourceSizeID>Spot Small Instance</resourceSizeID>
+			<replicas>
+				<replicaElement hour="0" value="1" />
+				<replicaElement hour="1" value="1" />
+				<replicaElement hour="2" value="1" />
+				<replicaElement hour="3" value="1" />
+				<replicaElement hour="4" value="1" />
+				<replicaElement hour="5" value="1" />
+				<replicaElement hour="6" value="1" />
+				<replicaElement hour="7" value="1" />
+				<replicaElement hour="8" value="1" />
+				<replicaElement hour="9" value="1" />
+				<replicaElement hour="10" value="1" />
+				<replicaElement hour="11" value="1" />
+				<replicaElement hour="12" value="1" />
+				<replicaElement hour="13" value="1" />
+				<replicaElement hour="14" value="1" />
+				<replicaElement hour="15" value="1" />
+				<replicaElement hour="16" value="1" />
+				<replicaElement hour="17" value="1" />
+				<replicaElement hour="18" value="1" />
+				<replicaElement hour="19" value="1" />
+				<replicaElement hour="20" value="1" />
+				<replicaElement hour="21" value="1" />
+				<replicaElement hour="22" value="1" />
+				<replicaElement hour="23" value="1" />
+			</replicas>
+		</cloudElement>
+	</resourceContainer>
+	<resourceContainer
+		id="90f1e968-c5c9-4413-9c20-79b1cfba188d__resourceContainer" name="conferenceAgent_NodeType"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS"
+			serviceName="Elastic Compute Cloud (EC2)" serviceType="Compute">
+			<resourceSizeID>Spot Small Instance</resourceSizeID>
+			<replicas>
+				<replicaElement hour="0" value="1" />
+				<replicaElement hour="1" value="1" />
+				<replicaElement hour="2" value="1" />
+				<replicaElement hour="3" value="1" />
+				<replicaElement hour="4" value="1" />
+				<replicaElement hour="5" value="1" />
+				<replicaElement hour="6" value="1" />
+				<replicaElement hour="7" value="1" />
+				<replicaElement hour="8" value="1" />
+				<replicaElement hour="9" value="1" />
+				<replicaElement hour="10" value="1" />
+				<replicaElement hour="11" value="1" />
+				<replicaElement hour="12" value="1" />
+				<replicaElement hour="13" value="1" />
+				<replicaElement hour="14" value="1" />
+				<replicaElement hour="15" value="1" />
+				<replicaElement hour="16" value="1" />
+				<replicaElement hour="17" value="1" />
+				<replicaElement hour="18" value="1" />
+				<replicaElement hour="19" value="1" />
+				<replicaElement hour="20" value="1" />
+				<replicaElement hour="21" value="1" />
+				<replicaElement hour="22" value="1" />
+				<replicaElement hour="23" value="1" />
+			</replicas>
+		</cloudElement>
+	</resourceContainer>
+	<resourceContainer
+		id="b838e06d-5831-456e-b05e-8e3b585d818d__resourceContainer" name="conferenceReplica_NodeType"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS"
+			serviceName="Elastic Compute Cloud (EC2)" serviceType="Compute">
+			<resourceSizeID>Spot Small Instance</resourceSizeID>
+			<replicas>
+				<replicaElement hour="0" value="1" />
+				<replicaElement hour="1" value="1" />
+				<replicaElement hour="2" value="1" />
+				<replicaElement hour="3" value="1" />
+				<replicaElement hour="4" value="1" />
+				<replicaElement hour="5" value="1" />
+				<replicaElement hour="6" value="1" />
+				<replicaElement hour="7" value="1" />
+				<replicaElement hour="8" value="1" />
+				<replicaElement hour="9" value="1" />
+				<replicaElement hour="10" value="1" />
+				<replicaElement hour="11" value="1" />
+				<replicaElement hour="12" value="1" />
+				<replicaElement hour="13" value="1" />
+				<replicaElement hour="14" value="1" />
+				<replicaElement hour="15" value="1" />
+				<replicaElement hour="16" value="1" />
+				<replicaElement hour="17" value="1" />
+				<replicaElement hour="18" value="1" />
+				<replicaElement hour="19" value="1" />
+				<replicaElement hour="20" value="1" />
+				<replicaElement hour="21" value="1" />
+				<replicaElement hour="22" value="1" />
+				<replicaElement hour="23" value="1" />
+			</replicas>
+		</cloudElement>
+	</resourceContainer>
+</resourceModelExtension>

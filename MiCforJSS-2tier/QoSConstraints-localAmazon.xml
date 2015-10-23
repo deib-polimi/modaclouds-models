@@ -10,7 +10,7 @@
 		<metric>ResponseTime</metric>
 		<metricAggregation aggregateFunction="Average" />
 		<range>
-			<hasMaxValue>40</hasMaxValue>
+			<hasMaxValue>10</hasMaxValue> <!-- 40 -->
 		</range>
 	</constraint>
 
@@ -22,7 +22,7 @@
 		<metric>ResponseTime</metric>
 		<metricAggregation aggregateFunction="Average" />
 		<range>
-			<hasMaxValue>14</hasMaxValue>
+			<hasMaxValue>11</hasMaxValue> <!-- 14 -->
 		</range>
 	</constraint>
 
@@ -34,7 +34,7 @@
 		<metric>ResponseTime</metric>
 		<metricAggregation aggregateFunction="Average" />
 		<range>
-			<hasMaxValue>14</hasMaxValue>
+			<hasMaxValue>11</hasMaxValue> <!-- 14 -->
 		</range>
 	</constraint>
 
