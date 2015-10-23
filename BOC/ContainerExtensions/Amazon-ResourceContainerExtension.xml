@@ -1,7 +1,16 @@
-<?xml version="1.0"?>
-<resourceModelExtension xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension resource_model_extension.xsd">
-<resourceContainer id="3db74756-3aa4-43fc-ab74-1f3d1dd5bc88__resourceContainer" provider="Amazon">
-    <cloudResource serviceType="Compute">
-    </cloudResource>
-</resourceContainer>
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceModelExtension
+	xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd"
+	xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<resourceContainer
+		id="_DwVeESc4EeWcfLh2tl1hLQ" name="server"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS" serviceType="Compute" />
+	</resourceContainer>
+		<resourceContainer
+		id="_HIjXESc4EeWcfLh2tl1hLQ" name="server"
+		provider="Amazon">
+		<cloudElement serviceCategory="IaaS" serviceType="Compute" />
+	</resourceContainer>
 </resourceModelExtension>
