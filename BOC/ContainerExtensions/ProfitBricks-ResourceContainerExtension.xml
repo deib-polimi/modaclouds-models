@@ -3,13 +3,11 @@
 	xmlns="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.modaclouds.eu/xsd/2013/6/resource-model-extension https://raw.githubusercontent.com/deib-polimi/modaclouds-qos-models/master/metamodels/s4cextension/resource_model_extension.xsd">
-	<resourceContainer
-		id="_DwVeESc4EeWcfLh2tl1hLQ" name="frontEnd"
+	<resourceContainer id="_DwVeESc4EeWcfLh2tl1hLQ" name="frontEnd"
 		provider="ProfitBricks">
 		<cloudElement serviceCategory="IaaS" serviceType="Compute" />
 	</resourceContainer>
-		<resourceContainer
-		id="_HIjXESc4EeWcfLh2tl1hLQ" name="backEnd"
+	<resourceContainer id="_HIjXESc4EeWcfLh2tl1hLQ" name="backEnd"
 		provider="ProfitBricks">
 		<cloudElement serviceCategory="IaaS" serviceType="Compute" />
 	</resourceContainer>
